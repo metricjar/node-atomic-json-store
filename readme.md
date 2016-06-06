@@ -7,6 +7,8 @@
 - Similarly, on `get`, `atomic-json-store` does not create the parent directory
 - Throws on invalid JSON in the store, instead of rudely deleting the entire configuration
 
+[![npm status](http://img.shields.io/npm/v/atomic-json-store.svg?style=flat-square)](https://www.npmjs.org/package/atomic-json-store) [![node](https://img.shields.io/node/v/atomic-json-store.svg?style=flat-square)](https://www.npmjs.org/package/atomic-json-store)
+
 ## usage
 
 Create a config at `~/.config/my-config.json`:
