@@ -1,6 +1,6 @@
 {
   "name": "atomic-json-store",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Get and set configuration in a JSON file",
   "license": "BSD-2-Clause",
   "author": "Vincent Weevers",
