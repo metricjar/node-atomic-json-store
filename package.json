@@ -1,0 +1,33 @@
+{
+  "name": "atomic-json-store",
+  "version": "0.0.5",
+  "description": "Get and set configuration in a JSON file",
+  "license": "BSD-2-Clause",
+  "author": "Vincent Weevers",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel -d lib src"
+  },
+  "dependencies": {
+    "graceful-fs": "~4.1.2",
+    "mkdirp": "~0.5.1",
+    "write-file-atomic": "~1.1.4"
+  },
+  "devDependencies": {},
+  "repository": "https://github.com/ironSource/node-atomic-json-store",
+  "bugs": "https://github.com/ironSource/node-atomic-json-store/issues",
+  "homepage": "https://github.com/ironSource/node-atomic-json-store",
+  "keywords": [
+    "store",
+    "configstore",
+    "json-store",
+    "json"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  }
+}
